@@ -1,6 +1,3 @@
-// Styling
-// http://localhost:3000/isolated/exercise/05.js
-
 import * as React from 'react'
 import '../box-styles.css'
 
@@ -14,7 +11,7 @@ import '../box-styles.css'
 // 🐨 also use the style prop to make the font italic
 // 💰 Here are available style attributes: backgroundColor, fontStyle
 
-const smallBox = <div>small lightblue box</div>
+const smallBox = <div className="">small lightblue box</div>
 const mediumBox = <div>medium pink box</div>
 const largeBox = <div>large orange box</div>
 
